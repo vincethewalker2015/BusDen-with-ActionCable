@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="payment-errors text-danger"></div>
+        <% if params[:plan] == '2' %>
+          <h2 align="center">Pro Account Sign Up Form</h2>
+          <div class="col-md-6 col-md-offset-3">
+            <%= render 'devise/registrations/pro_form' %>
+          </div>
+        <% else %>
+          <h2 align="center">Free Account Sign Up</h2>
+          <div class="col-md-6 col-md-offset-3">
+            <%= render 'devise/registrations/basic_form' %>
+          </div>
+        <% end %> 
+        <br />
+  </div>

@@ -1,0 +1,194 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+/* ------------------GENERAL -----------------------------*/
+.white {
+    color: #fff;
+}
+
+/*------------------BUTTONS -----------------------------*/
+.copper:hover {
+    background: #cd7f32 !important;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.copper {
+    background: #101010 ;
+    color: #cd7f32 !important;
+    border: 2px solid #cd7f32;
+}
+
+
+/* -----------------FLASH WARNINGS ----------------------*/
+// Error Messages
+.panel-title {
+    font-weight: bold;
+}
+.panel-body, li {
+    list-style-type: none;
+}
+
+
+ /* -----------------HOME PAGE--------------------*/
+.jumbotron {
+    background-image: asset-url("cover.png");
+    background-size: cover;
+    height: 400px;
+    border: 8px solid black;
+    border-radius: 25px !important;
+}
+.body, .homebody {
+    background-color: black;
+}
+.white-page-title {
+    color: #cd7f32 !important;
+}
+
+
+/*---------------------NAV BAR----------------------------*/
+
+.navbar .navbar-brand, .navbar .navbar-nav > li > a {
+  color: #cd7f32;
+  &:hover {
+      color: white;
+      opacity: 0.75;
+  }
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    //font-weight: 500;
+    color: #cd7f32 !important;
+}
+
+// Toggle bar
+.navbar .navbar-toggle .icon-bar {
+    background-color: #cd7f32 !important;
+}
+
+
+
+/*---------------------PLAN PAGE------------------------*/
+ .welcome {
+    background-image: asset-url("cover.png");
+    background-size: cover;
+    border-radius: 10px;
+    //height: 200px;
+    color: #cd7f32;
+}
+
+ .img{
+     opacity: 0.2
+}
+
+
+// Buttons
+    //button color
+.silver {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.silver {
+   margin-top: 32px;
+}
+
+     //button color
+.gold {
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* ---------------------ABOUT PAGE-------------------------*/
+
+ .about {
+     border: 8px solid black;
+     border-radius: 25px;
+}
+
+/*-----------------------DEVISE ---------------------------*/
+// Alerts
+
+.alert, .alert-alert {
+    background-color:#f8d7da;
+    color:#721c24;
+}
+
+.alert-notice {
+    display: none;
+}
+
+/*-----------------------FORMS -----------------------------*/
+
+.form-control {
+    background: #cd7f32;
+    color: black;
+    border: 2px solid black !important;
+}
+
+.form-control::placeholder {
+    color: black;
+}
+
+.label-text {
+    font-size: 1.5em;
+}
+
+#card_month {
+    background: #cd7f32;
+    color: black;
+    border: 2px solid black;
+}
+
+#card_year {
+    background: #cd7f32;
+    color: black;
+    border: 2px solid black;
+}
+
+
+/*--------------------------------PROFILE PAGE-----------------------------------------*/
+// Profile Pic
+ img {
+    border: 2px solid #cd7f32;
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px;
+    background: black;
+}
+
+ .well.profile-black-white {
+     background-color: #101010;
+     border: 5px solid #cd7f32;
+     border-radius: 25px;
+     color: #cd7f32 ;
+ }
+ 
+ .well.profile-black-white-thin {
+     background-color: #101010;
+     border: 2px solid #cd7f32;
+     border-radius: 25px;
+     color: #cd7f32 ;
+     
+ }
+
+
+/*--------------------------------Index Page -----------------------------------------*/
+
+// h2
+
+ a  {
+    text-decoration: none !important;
+ 
+}
+
+ a:hover {
+    text-decoration: none;
+   
+ }

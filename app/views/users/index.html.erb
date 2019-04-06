@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="well profile-black-white-thin">
+            <h1 class="text-center">Business Den Community Page</h1>
+                <h5>Welcome to our community page. Please fill out a profile form in order for you to be visible on this page.</h5>
+                </div>
+                    <ul class="list-unstyled">
+                        <% @users.each do |user| %>
+                            <% if user.profile %>
+                            <li>
+                                <div class="well profile-black-white-thin row <%= cycle('profile-black-white-thin-b', '') %>">
+                                    <div class="col-sm-4 text-center">
+                                        <% if user.profile.picture %>
+                                            <%= link_to user do %>
+                                                <%= image_tag user.profile.picture.url, class: "user-show-avatar" %>
+                                            <% end %>
+                                        <% end %>
+                                    </div>
+                                    <div class="col-sm-offset-4">
+                                        <%= link_to user do %>
+                                            <h2 class="show-page-header"><%= user.profile.first_name %> <%= user.profile.last_name %></h2>
+                                        <% end %>
+                                        <p><%= user.profile.job_title %>
+                                            <% if user.plan_id == 2 %>
+                                                <span class="label label-success">PREMIUM MEMBER</span>
+                                            <% end %>
+                                        </p>
+                                        <p><%= user.profile.description %></p>
+                                        <% if current_user.plan_id == 2 %>
+                                        <p><%= user.profile.phone_number %></p>
+                                        <p><%= user.profile.contact_email %></p>
+                                        <% end %>
+                                    </div>
+                                </div>
+                            </li>
+                            <% end %>
+                        <% end %>
+                    </ul>
+    </div>
+</div>

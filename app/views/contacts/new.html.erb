@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="well profile-black-white">
+          <h2 class="text-center">Contact us</h2>
+          <p class="text-center">Reach out to us if you have any comments or questions</p>
+            <%= form_for @contact do |f| %>
+              <div class="form-group">
+                <%= f.label :name %>
+                <%= f.text_field :name, class: 'form-control' %>
+              </div>
+              <div class="form-group">
+              <%= f.label :email %>
+              <%= f.email_field :email, class: 'form-control' %>
+            </div>
+            <div class="form-group">
+              <%= f.label :comments %>
+              <%= f.text_area :comments, class: 'form-control' %>
+            </div>
+            <%= f.submit 'Submit', class: 'btn btn-primary' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+

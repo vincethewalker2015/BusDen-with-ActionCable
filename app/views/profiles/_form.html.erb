@@ -1,0 +1,42 @@
+<%= form_for @profile, url: user_profile_path, :html => { :multipart => true } do |f| %>
+  <div class="form-group">
+    <%= f.label :first_name, class: "label-text" %>
+    <%= f.text_field :first_name, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :last_name, class: "label-text" %>
+    <%= f.text_field :last_name, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :job_title, class: "label-text" %>
+    <%= f.select :job_title, ['Business Owner', 'Entrepreneur', 'Investor'], {}, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :phone_number, class: "label-text" %>
+    <%= f.text_field :phone_number, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :contact_email, class: "label-text" %>
+    <%= f.text_field :contact_email, class: 'form-control'%>
+  </div>
+  <div class="form-group">
+    <%= f.label :description, class: "label-text" %>
+    <%= f.text_area :description, class: 'form-control' %>
+  </div>
+  <div class="form-group">
+    <%= f.label :picture, class: "label-text" %>
+    <%= f.file_field :picture, class: 'form-control', placeholder: "Upload your picture here.." %>
+  </div>
+  <div class="form-group">
+    <%= f.submit  class: 'btn btn-primary copper' %>
+  </div>
+<% end %>
+
+<script type="text/javascript">
+   $(‘#profile_picture').bind('change', function() {
+     var size_in_megabytes = this.files[0].size/1024/1024;
+     if (size_in_megabytes > 5) {
+       alert('Maximum file size is 5MB. Please choose a smaller file.');
+     }
+   });
+ </script>
