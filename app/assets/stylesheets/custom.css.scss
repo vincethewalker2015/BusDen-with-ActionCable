@@ -192,3 +192,20 @@
     text-decoration: none;
    
  }
+ 
+ /*------------------------------COMMENTS SECTION ------------------------------------*/
+ 
+ .comments-window {
+    background: black;
+    color: #cd7f32;
+    border: 2px solid #cd7f32 !important;
+}
+
+.quiet {
+    font-size: 6px;
+    font-style: italic;
+}
+
+.comments-text {
+    font-style: italic;
+}
