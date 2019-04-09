@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   devise_for :users, controllers: { registrations: 'users/registrations' }
   
   resources :users do
-    resource :profile 
+    resource :profile
+    resources :comments, only: [:create]
   end
   
   get 'about', to: 'pages#about'
