@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'plan', to: 'pages#plan'
   resources :contacts, only: :create
   get 'contact-us', to: 'contacts#new'
+  get '/chat', to: 'chatrooms#show'
   
   mount ActionCable.server => '/cable'
   

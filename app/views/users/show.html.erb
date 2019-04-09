@@ -7,7 +7,9 @@
   <div class="col-md-6">
     <div align="center" class="well profile-black-white">
        <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %><br/></h1>
-       <h3><span class="job-title-icon"><%= job_title_icon %></span> <%= @user.profile.job_title %></h3>
+       <h3><span class="job-title-icon"><%= job_title_icon %></span> 
+       <%= @user.profile.job_title %></h3>
+       <%= link_to "Chat", chat_path(current_user), class: "btn btn-default copper"if current_user.plan_id == 2 %>
     </div>
     <div align="center" class="well profile-black-white">
       <h3 class="show-page-header">Description</h3>
