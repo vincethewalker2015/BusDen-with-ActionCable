@@ -7321,3 +7321,674 @@ An unauthorized connection attempt was rejected
 Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
 Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:06:55 +0000
 Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:06:55 +0000
+Started GET "/" for 176.250.185.36 at 2019-04-09 12:29:41 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_navbar.html.erb (2.8ms)
+  Rendered layouts/_flash.html.erb (1.1ms)
+Completed 200 OK in 477ms (Views: 460.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:29:43 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:43 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:43 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:43 +0000
+Started GET "/users/sign_in" for 176.250.185.36 at 2019-04-09 12:29:46 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (42.6ms)
+  Rendered layouts/_navbar.html.erb (2.6ms)
+  Rendered layouts/_flash.html.erb (1.4ms)
+Completed 200 OK in 179ms (Views: 159.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:29:47 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:47 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:47 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:47 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:29:52 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:52 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:52 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:52 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:29:56 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:56 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:56 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:56 +0000
+Started POST "/users/sign_in" for 176.250.185.36 at 2019-04-09 12:29:58 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mv0wWEFKILE7I2EiOF4u5/nna9RfA50vv2Op5gt0S1EokqkWNeXUTVDXK6OIUqHJ/VkWyEhi1+5gDaCTvjC5cw==", "user"=>{"email"=>"bojo@yahoo.ca", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "bojo@yahoo.ca"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2019-04-09 12:29:58 UTC], ["last_sign_in_at", 2019-04-09 10:08:08 UTC], ["sign_in_count", 4], ["updated_at", 2019-04-09 12:29:58 UTC], ["id", 1]]
+  [1m[35m (11.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://set-up-vincethewalker.c9users.io/
+Completed 302 Found in 205ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/" for 176.250.185.36 at 2019-04-09 12:29:58 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pages/home.html.erb within layouts/application (61.2ms)
+  Rendered layouts/_navbar.html.erb (2.6ms)
+  Rendered layouts/_flash.html.erb (0.8ms)
+Completed 200 OK in 150ms (Views: 146.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:29:59 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:59 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:59 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:29:59 +0000
+Started GET "/users/1" for 176.250.185.36 at 2019-04-09 12:30:01 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered comments/_newcomment.html.erb (4.2ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ? ORDER BY "comments"."updated_at" DESC[0m  [["user_id", 1]]
+  Rendered comments/_comment.html.erb (1.4ms)
+  Rendered comments/_comment.html.erb (0.5ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comments.html.erb (14.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (32.8ms)
+  Rendered layouts/_navbar.html.erb (1.9ms)
+  Rendered layouts/_flash.html.erb (0.7ms)
+Completed 200 OK in 139ms (Views: 92.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:02 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:02 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:02 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:02 +0000
+Started GET "/users" for 176.250.185.36 at 2019-04-09 12:30:08 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 2], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 3], ["LIMIT", 1]]
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 1]]
+  Rendered users/index.html.erb within layouts/application (8.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:08 +0000
+  Rendered layouts/_navbar.html.erb (7.2ms)
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendered layouts/_flash.html.erb (0.8ms)
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:08 +0000
+Completed 200 OK in 215ms (Views: 210.4ms | ActiveRecord: 1.1ms)
+
+
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:08 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:08 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:09 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:09 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:09 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:09 +0000
+Started GET "/users/4" for 176.250.185.36 at 2019-04-09 12:30:11 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 1]]
+  Rendered comments/_newcomment.html.erb (1.5ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ? ORDER BY "comments"."updated_at" DESC[0m  [["user_id", 4]]
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.6ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comments.html.erb (39.2ms)
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (51.0ms)
+  Rendered layouts/_navbar.html.erb (1.5ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+Completed 200 OK in 106ms (Views: 99.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:12 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:18 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:18 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:18 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:18 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:21 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:24 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:24 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:24 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:24 +0000
+Started POST "/users/4/comments" for 176.250.185.36 at 2019-04-09 12:30:27 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by CommentsController#create as JS
+  Parameters: {"utf8"=>"✓", "comment"=>{"description"=>"Testing again"}, "commit"=>"Submit comment", "user_id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "comments" ("description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Testing again"], ["user_id", 1], ["created_at", 2019-04-09 12:30:27 UTC], ["updated_at", 2019-04-09 12:30:27 UTC]]
+  [1m[35m (15.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 18.3ms)
+
+
+  
+NameError (undefined local variable or method `“comments”' for #<CommentsController:0x007fdde4027d98>
+Did you mean?  @comment):
+  
+app/controllers/comments_controller.rb:9:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+Started POST "/users/4/comments" for 176.250.185.36 at 2019-04-09 12:30:27 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started POST "/users/4/comments" for 176.250.185.36 at 2019-04-09 12:30:27 +0000
+Processing by CommentsController#create as JS
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Parameters: {"utf8"=>"✓", "comment"=>{"description"=>"Testing again"}, "commit"=>"Submit comment", "user_id"=>"4"}
+Processing by CommentsController#create as JS
+Started POST "/users/4/comments" for 176.250.185.36 at 2019-04-09 12:30:27 +0000
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Parameters: {"utf8"=>"✓", "comment"=>{"description"=>"Testing again"}, "commit"=>"Submit comment", "user_id"=>"4"}
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Processing by CommentsController#create as JS
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Parameters: {"utf8"=>"✓", "comment"=>{"description"=>"Testing again"}, "commit"=>"Submit comment", "user_id"=>"4"}
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "comments" ("description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Testing again"], ["user_id", 1], ["created_at", 2019-04-09 12:30:27 UTC], ["updated_at", 2019-04-09 12:30:27 UTC]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "comments" ("description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Testing again"], ["user_id", 1], ["created_at", 2019-04-09 12:30:27 UTC], ["updated_at", 2019-04-09 12:30:27 UTC]]
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (28.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 223ms (ActiveRecord: 16.2ms)
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (342.9ms)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Completed 500 Internal Server Error in 389ms (ActiveRecord: 31.1ms)
+
+
+  
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "comments" ("description", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["description", "Testing again"], ["user_id", 1], ["created_at", 2019-04-09 12:30:27 UTC], ["updated_at", 2019-04-09 12:30:27 UTC]]
+  
+NameError (undefined local variable or method `“comments”' for #<CommentsController:0x007fddd80d7c90>
+Did you mean?  @comment):
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+  
+NameError (undefined local variable or method `“comments”' for #<CommentsController:0x007fddcc9adf88>
+Did you mean?  @comment):
+Completed 500 Internal Server Error in 649ms (ActiveRecord: 14.6ms)
+
+
+app/controllers/comments_controller.rb:9:in `create'
+  
+  
+app/controllers/comments_controller.rb:9:in `create'
+NameError (undefined local variable or method `“comments”' for #<CommentsController:0x007fdde1c6c3e0>
+Did you mean?  @comment):
+  
+app/controllers/comments_controller.rb:9:in `create'
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.2ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (111.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (177.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (1.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (95.4ms)
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:30 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:30 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:30 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:30 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:33 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:33 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:33 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:34 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:38 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:38 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:38 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:38 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:41 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:41 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:41 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:41 +0000
+Started GET "/users/4" for 176.250.185.36 at 2019-04-09 12:30:46 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 1]]
+  Rendered comments/_newcomment.html.erb (1.9ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ? ORDER BY "comments"."updated_at" DESC[0m  [["user_id", 4]]
+  Rendered comments/_comment.html.erb (1.1ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comments.html.erb (16.5ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (166.5ms)
+  Rendered layouts/_navbar.html.erb (2.2ms)
+  Rendered layouts/_flash.html.erb (0.8ms)
+Completed 200 OK in 260ms (Views: 252.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:46 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:46 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:46 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:46 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:30:56 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:09 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:09 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:09 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:09 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:23 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:23 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:23 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:23 +0000
+Started GET "/users/4" for 176.250.185.36 at 2019-04-09 12:31:27 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 1]]
+  Rendered comments/_newcomment.html.erb (1.6ms)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ? ORDER BY "comments"."updated_at" DESC[0m  [["user_id", 4]]
+  Rendered comments/_comment.html.erb (1.9ms)
+  Rendered comments/_comment.html.erb (0.5ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.9ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comments.html.erb (21.5ms)
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (185.3ms)
+  Rendered layouts/_navbar.html.erb (2.0ms)
+  Rendered layouts/_flash.html.erb (0.5ms)
+Completed 200 OK in 266ms (Views: 258.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:28 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:28 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:28 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:28 +0000
+Started GET "/users/4" for 176.250.185.36 at 2019-04-09 12:31:33 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 1]]
+  Rendered comments/_newcomment.html.erb (1.7ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ? ORDER BY "comments"."updated_at" DESC[0m  [["user_id", 4]]
+  Rendered comments/_comment.html.erb (1.2ms)
+  Rendered comments/_comment.html.erb (0.4ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comments.html.erb (16.7ms)
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (30.1ms)
+  Rendered layouts/_navbar.html.erb (3.3ms)
+  Rendered layouts/_flash.html.erb (1.2ms)
+Completed 200 OK in 117ms (Views: 107.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:34 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:34 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:34 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:34 +0000
+Started GET "/users/4" for 176.250.185.36 at 2019-04-09 12:31:40 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 4], ["LIMIT", 1]]
+  Rendered comments/_newcomment.html.erb (2.2ms)
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."user_id" = ? ORDER BY "comments"."updated_at" DESC[0m  [["user_id", 4]]
+  Rendered comments/_comment.html.erb (1.4ms)
+  Rendered comments/_comment.html.erb (1.0ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.9ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.8ms)
+  Rendered comments/_comment.html.erb (0.3ms)
+  Rendered comments/_comment.html.erb (0.2ms)
+  Rendered comments/_comment.html.erb (0.8ms)
+  Rendered comments/_comments.html.erb (21.9ms)
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = ? LIMIT ?[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (38.0ms)
+  Rendered layouts/_navbar.html.erb (2.1ms)
+  Rendered layouts/_flash.html.erb (0.6ms)
+Completed 200 OK in 129ms (Views: 119.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:40 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:40 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:40 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:40 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:44 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:44 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:44 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:44 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:50 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:50 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:50 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:50 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:31:56 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:56 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:56 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:31:56 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:04 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:04 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:04 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:04 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:05 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:05 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:05 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:05 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:13 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:13 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:13 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:13 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:14 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:14 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:14 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:14 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:23 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:23 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:23 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:23 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:24 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:24 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:24 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:24 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:33 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:33 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:33 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:33 +0000
+Started GET "/cable" for 176.250.185.36 at 2019-04-09 12:32:35 +0000
+Cannot render console from 176.250.185.36! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:35 +0000
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+An unauthorized connection attempt was rejected
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:35 +0000
+Finished "/cable/" [WebSocket] for 176.250.185.36 at 2019-04-09 12:32:35 +0000
