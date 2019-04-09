@@ -1,1 +1,16 @@
-<h2 align="center">Chat Area</h2>
+<div class="container">
+  <h2 align="center">Chatroom</h2>
+    <div class="row chat-container">
+        <div class="col-md-6 col-md-offset-3 center-block">
+           <div class="messages" id="messages">
+                <%= render @messages %>
+           </div>
+        </div>
+        <div class="message-container col-md-6 col-md-offset-3">
+          <%= form_for(@message, remote: true,  :html => {class: "form-horizontal", role: "form"}) do |f| %>
+          <%= f.text_area :content, class: "form-control inverse", data: { behavior: "room_speaker" }, placeholder: "Write message here.." %> <br />
+          <%= f.submit "Send", class: "btn btn-primary copper btn-lg", data: {send: "message" } %>
+        <% end %>
+        </div>
+    </div>
+</div>

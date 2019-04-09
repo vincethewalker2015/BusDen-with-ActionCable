@@ -1,0 +1,11 @@
+<div class="message well profile-black-white ">
+    
+        <p> 
+            <span class="content">
+                <strong><%= message.user.profile.first_name.capitalize %>:</strong>
+                <%= message.content %> <br />
+                <small class="pull-left"><em>Created <%= time_ago_in_words(message.created_at) %> ago</em></small><br />
+            </span>
+        </p>
+    
+</div>

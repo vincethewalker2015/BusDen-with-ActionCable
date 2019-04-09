@@ -137,6 +137,12 @@ hr {
     border: 2px solid black !important;
 }
 
+ .inverse {
+    background: black;
+    color: #cd7f32;
+    border: 2px solid #cd7f32 !important;
+}
+
 .form-control::placeholder {
     color: black;
 }
@@ -213,4 +219,12 @@ hr {
 
 .comments-text {
     font-style: italic;
+}
+
+
+/*--------------------------------MESSAGES SECTION---------------------------------------*/
+.messages {
+    height: 20em;
+    position: relative;
+    overflow: auto;
 }
