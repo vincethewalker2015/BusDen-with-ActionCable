@@ -12,7 +12,7 @@ gem 'font-awesome-sass', '4.6.2'
 # Use Carrierwave for Image Upload
 gem 'carrierwave', '1.2.3'
 # For Image manipulation using minumal memmory
-gem 'mini_magick', '4.7.0'
+gem 'mini_magick', '4.9.4'
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
 # Use Devise for User Authentication
